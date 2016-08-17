@@ -1,4 +1,4 @@
-FROM java:8-jre-alpine
+FROM leeln/java:jre-8
 
 ENV PROFILES dev
 ENV VERSION 0.0.1-SNAPSHOT
