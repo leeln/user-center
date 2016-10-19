@@ -4,3 +4,13 @@ spring:
   cloud:
     config:
       uri: http://config.leeln.com
+
+eureka:
+  instance:
+    hostname: user.leeln.com
+    nonSecurePort: 80
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.leeln.com/eureka/
+    fetchRegistry: false
+    registerWithEureka: true
