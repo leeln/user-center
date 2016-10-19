@@ -1,3 +1,6 @@
 spring:
   application:
     name: user-center
+  cloud:
+    config:
+      uri: http://config.leeln.com

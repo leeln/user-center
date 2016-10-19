@@ -1,2 +1,4 @@
 userCenter:
+  labels:
+    io.rancher.container.pull_image: always
   image: docker.repo.leeln.com/leeln/user-center

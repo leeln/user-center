@@ -1,4 +1,4 @@
-FROM leeln/java:jre-8
+FROM docker.repo.leeln.com/leeln/java:jre-8
 
 ENV PROFILES default
 ENV VERSION 0.0.1-SNAPSHOT

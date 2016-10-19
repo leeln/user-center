@@ -1,4 +1,4 @@
-package org.micoa.usercenter;
+package com.leeln.user.center.controller;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
